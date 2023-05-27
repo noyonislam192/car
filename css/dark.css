@@ -1,0 +1,789 @@
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: linear-gradient(78deg, #000000, #000000);
+    /* color: black; */
+}
+html{
+   scroll-behavior: smooth;
+}
+.dark a{
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    
+}
+.fa-sun{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 15px;
+   
+}
+.fa-sun:hover{
+    transition: 1.5s;
+}
+.body-one{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.header{}
+.header-logo-nav-login{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{}
+.header-logo h1{
+    font-size: 40px;
+    color: white;
+}
+.fa-magnifying-glass{
+    font-size: 22px;
+    cursor: pointer;
+    margin-right: 20px;
+    color: white;
+}
+.fa-magnifying-glass:hover{
+    color: red;
+    transform: scale(1.2);
+    transition: 0.8s;
+}
+.menubar{}
+.menubar ul{}
+.menubar ul li{
+    display: inline-flex;
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 0px 20px;
+    color: white;
+}
+.menubar ul li a:hover{
+   
+    color: red;
+    transform: scale(1.2);
+    transition: 0.8s;
+}
+.login{}
+.login button{
+    background: linear-gradient(270deg, #661ded, #2196f3);
+    padding: 7px 18px;
+    border: none;
+    border-radius: 5px;
+}
+.login button a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    color: whitesmoke;
+   
+}
+.login button a:hover{
+    color:tomato;
+    transition: 0.8s;
+}
+.login button:hover{
+    background: linear-gradient(78deg, #661ded, #2196f3);
+}
+.header-content{
+    width: 100%;
+    display: inline-flex;
+    margin-top: 135px;
+}
+.header-content-left{
+    width: 50%;
+}
+.header-col-letter{
+    color: white;
+}
+.header-col-letter h1{
+    font-size: 40px;
+    margin-top: 50px;
+    font-weight: 800;
+    width: 92%;
+}
+.header-col-letter p{
+    width: 60%;
+    margin-top: 20px;
+    line-height: 20px;
+}
+.header-content-right{
+    width: 50%;
+}
+.header-content-right img{
+    width: 100%;
+}
+.banner-content{
+    width: 100%;
+    margin-top: 90px;
+    border-radius: 10px;
+    height: 13vh;
+    display: flex;
+    background: linear-gradient(271deg, #f3f2f738, #3d3d3f87 100%);
+}
+.banner-colum{
+    width: 268px;
+    margin-left: 30px;
+    margin-top: 6px;
+}
+.banner-colum h1{
+    color: whitesmoke;
+}
+.banner-colum p{
+    color: white;
+    margin-left: -22.5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.car-option{
+    text-transform: capitalize;
+    height: 30px;
+    width: 160px;
+    background: transparent;
+    color: white;
+    border-radius: 6px;
+}
+.our-services{
+    width: 100%;
+    display: inline-flex;
+    margin-top: 130px;
+}
+
+
+.our-services-left-part{
+    width: 50%;
+}
+.services-part-one h1{
+    color: white;
+    font-size: 60px;
+    text-transform: capitalize;
+}
+.services-part-one p{
+    color: white;
+    font-weight: 200;
+    width: 404px;
+}
+.services-part-one img{
+    width: 90%;
+    margin-top: 25px;
+}
+
+
+
+.our-services-right-part{ 
+    width: 50%;
+}
+.services-colum{
+    display: inline-flex;
+    margin-bottom: 186px;
+}
+.services-part-letter {
+    text-align: center;
+    background: linear-gradient(38deg, #121212, #b4b2ba57);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 50px;
+    height: 138px;
+    width: 148px;
+    margin-left: 96px;
+    /* border: 2px solid #392a7a; */
+}
+.services-part-letter:hover{
+    cursor: pointer;
+    transition: 0.8s;
+    box-shadow: 0 0 1px #676bee, 0 0 1px #5550f057, 0 0 54px #8569f57a, 0 0 20px #6359e4;
+}
+.services-part-letter i{
+    font-size: 50px;
+    margin-top: -30px;
+}
+.services-part-two{
+    border-radius: 10px;
+    height: 68px;
+}
+
+.services-part-two h3{
+    font-size: 15px;
+    margin-top: 45px;
+}
+.services-part-two p{
+    font-size: 12px;
+    margin-top: 12px;
+    font-weight: 300;
+}
+
+.vehicles-contant{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.vehicles-contant h1{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+   
+}
+.vehicles{
+    width: 100%;
+    border-radius: 15px;
+    height: 80vh;
+    background: linear-gradient(283deg, #d5d4da66, #1b1a1abf);
+}
+.vehicles-two-colum{
+    display: flex;
+    
+}
+.vehicles-col-one{
+    width: 50%;
+    color: white;
+    padding-top:50px;
+    padding-left: 50px;
+}
+.vehicles-col-one h1{
+    font-size:45px;
+}
+.fa-solid.fa-star {
+    font-size: 25px;
+    letter-spacing: 25px;
+    color: #f4f455;
+}
+.vehicles-col-one p{
+    line-height: 60px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+.vehicles-col-one a{
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: linear-gradient(45deg, #7901C5, #5600E6);
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.vehicles-colum-two{
+    width: 50%;
+}
+.vehicles-colum-two img{
+    width: 90%;
+    padding-top: 145px;
+}
+.vehicles-colum-two img:hover{
+    transform: scale(1.2);
+    transition: 1.5s;
+}
+.car-info-header{
+    width: 100%;
+    text-align: center;
+    margin-top: 180px;
+}
+.car-info-header h1{
+    color: white;
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.car-info-content{
+    width: 100%;
+    display: inline-flex;
+    margin-top: 50px;
+}
+.car-info{
+    width: 28%;
+    height: 420px;
+    background: #1b1b1c;
+    color: white;
+    padding: 10px;
+    margin-left: 35px;
+    border-radius: 20px;
+}
+.car-info h1{
+    text-align: center;
+}
+.car-info img{
+    width: 100%;
+    height: 196px;
+}
+.car-info h2{
+    margin-top: 10px;
+}
+.car-info h4{
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 25px;
+    font-family: ui-sans-serif;
+    font-weight: 600;
+}
+.car-info a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(112deg, #7702be, #5700e1);
+    padding: 8px 40px;
+    border-radius: 5px;
+    margin-left: 106px;
+}
+.car-info i{
+    font-size: 15px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.luxury-brand{
+    width: 100%;
+    height: 30vh;
+    margin-top: 80px;
+    background: linear-gradient(271deg, #7b7a8157, #0e0d0df2);
+    border-radius: 15px;
+    align-items: center;
+    display: flex;
+}
+.luxury-brand-name{
+    width: 100%;
+    display: flex;
+}
+.luxury-brand-name H1:hover{
+    transform: scale(1.5);
+    transition: 0.8s;
+}
+.luxury-brand-name H1{
+    cursor: pointer;
+    color: white;
+    margin-left: 83px;
+    padding: 6px 30px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #6601b77a, #5b00dd4a);
+}
+.client-section{
+    width: 100%;
+    height: 64vh;
+    margin-top: 55px;
+    background: linear-gradient(312deg, #000000c2, #a4a2a687);
+    display: inline-flex;
+    border-radius: 15px;
+}
+.client-reviwe-part{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+.client-reviwe-part h1{
+    color: white;
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.client-review{
+   width: 50%;
+    height: 40vh;
+    margin-top: 8%;
+    margin-left: 90px;
+}
+.client-review h1{
+    color: white;
+    font-size: 50px;
+
+}
+.client-review p{
+    color: white;
+    width: 311px;
+    margin-bottom: 15px;
+}
+.client-photo{
+    width: 50%;
+}
+.client-photo img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 80px;
+}
+.map-content{
+    margin-top: 105px;
+    filter: invert(100%);
+}
+.map-content h1{
+        text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: white;
+    font-family: sans-serif;
+}
+.footer-content{
+    width: 100%;
+    height: 50vh;
+    margin-top: 80px;
+    background: linear-gradient(90deg, #1b192e6e, #2c235c 60%);
+    border-radius: 10px;
+}
+.footer-part{
+    width: 93%;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    padding-top: 40px;
+}
+.footer-part-one{
+    width:70%;
+    
+}
+.footer-part-one h1{
+    font-size: 35px;
+}
+.footer-part-one p{
+    font-size: 12px;
+    line-height: 16px;
+}
+.fa-brands{
+    font-size: 23px;
+    margin-right: 26px;
+    margin-top: 14px;
+}
+.footer-part-two{
+    width: 40%;
+    margin-left: 106px;
+    text-transform: uppercase;
+}
+.footer-part-two h1{}
+.footer-part-two ul{}
+.footer-part-two ul li{
+    list-style: none;
+    line-height: 30px;
+    margin-left: -39px;
+}
+.footer-part-two ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.footer-part-three{
+    width: 40%;
+    text-transform: uppercase;
+}
+.footer-part-three h1{}
+.footer-part-three ul{}
+.footer-part-three li{
+    list-style: none;
+    line-height: 30px;
+    margin-left: -39px;
+}
+.footer-part-three li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.footer-part-four{
+    width: 40%;
+    text-transform: uppercase;
+}
+.footer-part-four h1{}
+.footer-part-four ul{}
+.footer-part-four ul li{
+    list-style: none;
+    line-height: 30px;
+    margin-left: -39px;
+}
+.footer-part-four ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.footer-part-five{
+    width: 40%;
+    text-transform: uppercase;
+    margin-top: -32px;
+}
+.footer-part-five h1{
+    
+}
+.footer-part-five ul{}
+.footer-part-five ul li{
+    list-style: none;
+    line-height: 30px;
+    margin-left: -39px;}
+.footer-part-five ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.fa-solid{margin-right: 10px;}
+
+
+@media only screen and (min-width: 320px) and (max-width: 425px){
+
+
+  
+    body{
+        background: linear-gradient(78deg, #000000, #000000);
+        /* color: black; */
+    }
+    .body-one{
+        margin-left:5px;
+        margin-right:5px;
+    }
+    .header{}
+    .header-logo-nav-login{}
+    .header-logo{}
+    .header-logo h1{
+        font-size: 25px;
+    }
+    .fa-magnifying-glass{}
+    .menubar{
+        display: none;
+    }
+    .menubar ul{}
+    .menubar ul li{}
+    .menubar ul li a{}
+
+    .login{}
+    .login button{
+        padding: 5px 16px;
+    }
+    .login button a{
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .header-content{
+        display: inline;
+    }
+    .header-content-left{
+        width: 100%;
+    }
+    .header-col-letter{}
+    .header-col-letter h1{
+        width: 250px;
+    font-size: 25px;
+    line-height: 33px;
+    margin-top: 117px;
+    }
+    .header-col-letter p{
+        width: 68%;
+        font-size: 10px;
+        margin-top: 3px;
+        line-height: 17px;
+    }
+    .header-content-right{
+    width: 100%;
+}
+    .header-content-right img{
+    width: 100%;
+}
+
+
+
+    .banner-content{
+        display: grid;
+        height: 225px;
+        text-align: center;
+    }
+    .banner-colum{}
+    .banner-colum h1{}
+    .banner-colum p{}
+    .option{}
+    .car-option{}
+
+
+    .our-services{
+        width: 100%;
+        display: inline;
+    }
+    .our-services-left-part{
+    width: 100%;
+}
+    .services-part-one h1{
+        font-size: 40px;
+        margin-top: 70px;
+    }
+    .services-part-one p{
+        font-size: 12px;
+        width: 100%;
+    }
+    .services-part-one img{
+        width: 100%;
+    }
+    
+    
+    
+    .our-services-right-part{
+        width: 100%;
+        margin-top: -100px;
+     }
+    .services-colum{
+        width: 100%;
+    display: inline;
+    }
+    .services-part-letter {
+        width: 92%;
+        height: 158px;
+        margin: 0;
+    }
+    
+    .services-part-letter i{}
+    .services-part-two{
+        margin-top: 175px;
+    }
+    
+    .services-part-two h3{}
+    .services-part-two p{}
+
+    
+    .vehicles-contant{
+        width: 100%;
+        margin-top: 190px;
+    }
+    .vehicles-contant h1{}
+    .vehicles{
+        height:500px;
+        width: 100%;
+    }
+    .vehicles-two-colum{
+        display: inline;
+    }
+    .vehicles-col-one{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        padding-top: 30px;
+    }
+    .vehicles-col-one h1{
+        font-size: 25px;
+    }
+    .fa-solid.fa-star {
+        letter-spacing: 0;
+    }
+    .vehicles-col-one p{
+        line-height: 30px;
+        margin-top: 24px;
+    }
+    .vehicles-col-one a{}
+    .vehicles-colum-two{
+        width: 100%;
+    }
+    .vehicles-colum-two img{
+        width: 100%;
+        margin-top: -80px;
+    }
+    .car-info-header{
+    width: 100%;
+}
+    .car-info-header h1{
+    width: 100%;
+    font-size: 25px;
+}
+    .car-info-content{
+    display: inline;
+    width: 100%;
+}
+    .car-info{
+    width: 100%;
+    margin-left: 0;
+    padding: 0;
+    margin-top: 30px;
+}
+    .car-info h1{}
+    .car-info img{}
+    .car-info h2{}
+    .car-info h4{}
+    .car-info a{}
+    .car-info i{}
+    
+    .luxury-brand{
+    width: 100%;
+    height: 300px;
+}
+    .luxury-brand-name{
+    display: inline;
+    width: 100%;
+    margin: 0px;
+    padding: 14px;
+}
+    .luxury-brand-name H1{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+    .client-section{
+    display: inline;
+    width: 100%;
+}
+    .client-reviwe-part{}
+    .client-reviwe-part h1{
+    font-size: 30px;
+}
+    .client-review{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+    .client-review h1{
+    font-size: 35px;
+    margin-top: 50px;
+}
+    .client-review p{}
+    .client-photo{
+    width: 100%;
+}
+    .one{
+    width: 100%;
+    text-align: center;
+    margin-top: -72px;
+}
+    .one img{width: 200px;height: 200px;}
+    .map-content{}
+    .map-part{
+        height: 160px!important;
+    }
+    .map-content h1{}
+    .footer-content{}
+    .footer-part{
+    display: none;
+}
+    .footer-part-one{}
+    .footer-part-one h1{}
+    .footer-part-one p{}
+    .fa-brands{}
+    .footer-part-two{}
+    .footer-part-two h1{}
+    .footer-part-two ul{}
+    .footer-part-two ul li{}
+    .footer-part-two ul li a{}
+    .footer-part-three{}
+    .footer-part-three h1{}
+    .footer-part-three ul{}
+    .footer-part-three li{}
+    .footer-part-three li a{}
+    .footer-part-four{}
+    .footer-part-four h1{}
+    .footer-part-four ul{}
+    .footer-part-four ul li{}
+    .footer-part-four ul li a{}
+    .footer-part-five{}
+    .footer-part-five h1{}
+    .footer-part-five ul{}
+    .footer-part-five ul li{}
+    .footer-part-five ul li a{}
+    .fa-solid{}
+    
+    
+    
+}
